@@ -22,11 +22,15 @@
 10. Push feature branch to rLoop repository <code>git push upstream *feature_name*</code>
 11. Create a pull request
     1. Add assignees @lochlon, @david
-    2. Add a commit message
-    - [x] Complies with code_standards <!-- FIXME: add link --!>
+    2. Add a commit message <!-- FIXME: add link to coding standard --!>
+
+```
+    - [x] Complies with code_standards 
     - [x] Doesn't introduce new bugs
     - [x] Fixes *some_issue*
     - [x] Other items
+```
+
 12. Once pull request has been accepted, update development branch <code>git pull --rebase upstream development</code>
 13. Get the new development branch <code>git checkout development</code>
 14. Update development branch <code>git pull upstream development</code>
